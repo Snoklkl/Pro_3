@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import List from './List';
-
+import App from './App.jsx';
+import Navigation from './components/Navigation.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-   <List />
+   <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
